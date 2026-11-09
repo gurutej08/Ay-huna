@@ -68,7 +68,11 @@ const Gamezone = () => {
   useEffect(() => {
     if (!player || !roomcode) return;
 
+<<<<<<< HEAD
+    socketRef.current = io("http://localhost:3000");
+=======
     socketRef.current = io("https://ayhuna-backend.onrender.com");
+>>>>>>> origin/main
 
     socketRef.current.on("connect", () => {
       socketRef.current.emit("join-room", { player, roomcode });
@@ -152,10 +156,14 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[0]?.chitti?.length}]
+<<<<<<< HEAD
+              </div>
+=======
                 <div className= {Myplayers?.[0]?.chitti?.length === 5?"greendot":"nogreendot"}>
                 </div>
               </div>
               
+>>>>>>> origin/main
             </div>
 
             <div className="two">
@@ -166,8 +174,11 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[1]?.chitti?.length}]
+<<<<<<< HEAD
+=======
                  <div className= {Myplayers?.[1]?.chitti?.length === 5?"greendot":"nogreendot"}>
                 </div>
+>>>>>>> origin/main
               </div>
             </div>
           </div>
@@ -181,8 +192,11 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[2]?.chitti?.length}]
+<<<<<<< HEAD
+=======
                <div className= {Myplayers?.[2]?.chitti?.length === 5?"greendot":"nogreendot"}>
                 </div>
+>>>>>>> origin/main
               </div>
             </div>
 
@@ -194,8 +208,11 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[3]?.chitti?.length}]
+<<<<<<< HEAD
+=======
                 <div className= {Myplayers?.[3]?.chitti?.length === 5?"greendot":"nogreendot"}>
                 </div>
+>>>>>>> origin/main
               </div>
             </div>
           </div>
@@ -267,9 +284,12 @@ const Gamezone = () => {
           </>
         </div>
       </div>
+<<<<<<< HEAD
+=======
       <footer className='gamezonefooter'>
           © {new Date().getFullYear()} varun. All rights reserved.
     </footer>
+>>>>>>> origin/main
     </div>
   );
 };

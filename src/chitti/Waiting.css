@@ -18,7 +18,11 @@
   background: linear-gradient(135deg, #800080, #c98691);
 }
 
+<<<<<<< HEAD
+
+=======
 /* The waiting room container */
+>>>>>>> origin/main
 .waiting-container {
   width: 400px;
   padding: 30px;
@@ -32,7 +36,10 @@
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
 /* Logo styling */
+>>>>>>> origin/main
 .waiting-container .logo {
   display: flex;
   flex-direction: column;
@@ -75,6 +82,10 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
+<<<<<<< HEAD
+  
+=======
+>>>>>>> origin/main
 }
 
 /* Individual player cards */
@@ -89,6 +100,10 @@
   color: #000;
   box-shadow: 1px 1px 5px #000;
   transition: transform 0.2s;
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/main
 }
 
 .player:hover {
@@ -196,6 +211,8 @@
     padding: 8px;
   }
 }
+<<<<<<< HEAD
+=======
 .waitingfooter{
     position: absolute;
     text-align: "center";
@@ -206,6 +223,7 @@
     bottom:30px;
 }
 
+>>>>>>> origin/main
 
 
 

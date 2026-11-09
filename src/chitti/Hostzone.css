@@ -60,6 +60,34 @@
   align-items: center;
 }
 .form-label{
+<<<<<<< HEAD
+    padding: 5px 10px;
+  border-radius: 9px;
+  color: aliceblue;
+  font-weight: bold;
+  box-shadow: 2px 1px 5px black;
+  background: linear-gradient(
+    120deg,
+    rgb(222, 77, 101) 20%,
+    rgb(45, 179, 237) 30%
+  );
+}
+.form-input{
+    background-image:linear-gradient(rgb(193, 233, 119) 2%, rgb(243, 69, 214) 100%);
+    margin: 10px;
+    border: none;
+    box-shadow:2px 2px 5px #000000;
+    padding: 3px;
+    border-radius: 10px;
+    width: 100px;
+}
+.form-input::placeholder {
+    opacity: 0.5;
+    color: black;
+    font-size: 14px;
+}
+
+=======
     background: linear-gradient(rgb(86, 228, 140) 9%,rgb(242, 95, 230) 70%);
     border-radius: 5px;
     padding: 2px;
@@ -76,6 +104,7 @@
 }
 
 
+>>>>>>> origin/main
 #bttn{
     width: 230px;
     height: 1;
@@ -94,8 +123,16 @@
     transform: scale(.9);
 }     
 .error1{
+<<<<<<< HEAD
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  margin-top: 4px; 
+  margin-bottom: 5px; 
+=======
   display: block; 
   margin-top: 4px;  
+>>>>>>> origin/main
   color: red;
 }
 .create{
@@ -462,6 +499,8 @@
 }
 
 }
+<<<<<<< HEAD
+=======
 .hostzonefooter{
     position: absolute;
     text-align: "center";
@@ -472,3 +511,4 @@
     bottom:30px;
 }
 
+>>>>>>> origin/main

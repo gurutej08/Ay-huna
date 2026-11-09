@@ -7,6 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
+node_modules
+dist
+dist-ssr
+*.local
+
+=======
+>>>>>>> origin/main
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -17,9 +25,12 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
  
 
 ## high data files 
 node_modules
 dist
 .env
+>>>>>>> origin/main
