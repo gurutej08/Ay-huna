@@ -68,10 +68,8 @@ const Gamezone = () => {
   useEffect(() => {
     if (!player || !roomcode) return;
 
-
     socketRef.current = io("http://localhost:3000");
 
-    socketRef.current = io("https://ayhuna-backend.onrender.com");
     socketRef.current.on("connect", () => {
       socketRef.current.emit("join-room", { player, roomcode });
     });
@@ -154,14 +152,7 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[0]?.chitti?.length}]
-
               </div>
-
-                <div className= {Myplayers?.[0]?.chitti?.length === 5?"greendot":"nogreendot"}>
-                </div>
-              </div>
-              
-
             </div>
 
             <div className="two">
@@ -172,10 +163,6 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[1]?.chitti?.length}]
-
-                 <div className= {Myplayers?.[1]?.chitti?.length === 5?"greendot":"nogreendot"}>
-                </div>
-
               </div>
             </div>
           </div>
@@ -189,10 +176,6 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[2]?.chitti?.length}]
-
-               <div className= {Myplayers?.[2]?.chitti?.length === 5?"greendot":"nogreendot"}>
-                </div>
-
               </div>
             </div>
 
@@ -204,10 +187,6 @@ const Gamezone = () => {
               <div className="player-info">
                 [number of chitti's with in the player:
                 {Myplayers?.[3]?.chitti?.length}]
-
-                <div className= {Myplayers?.[3]?.chitti?.length === 5?"greendot":"nogreendot"}>
-                </div>
-
               </div>
             </div>
           </div>
@@ -279,9 +258,6 @@ const Gamezone = () => {
           </>
         </div>
       </div>
-      <footer className='gamezonefooter'>
-          © {new Date().getFullYear()} varun. All rights reserved.
-    </footer>
     </div>
   );
 };
