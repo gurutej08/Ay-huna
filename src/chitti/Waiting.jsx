@@ -17,11 +17,11 @@ const Waiting = () => {
 
   useEffect(() => {
     // Create socket only once
-<<<<<<< HEAD
+
     socketRef.current = io("http://localhost:3000");
-=======
+
     socketRef.current = io("https://ayhuna-backend.onrender.com");
->>>>>>> origin/main
+
 
     // Emit join-room only after connection
     socketRef.current.on("connect", () => {
@@ -72,12 +72,11 @@ const Waiting = () => {
           ))}
         </ul>
       </div>
-<<<<<<< HEAD
-=======
+
       <footer className='waitingfooter'>
           © {new Date().getFullYear()} varun. All rights reserved.
     </footer>
->>>>>>> origin/main
+
     </div>
   );
 };
