@@ -7,6 +7,7 @@ import pointingman1 from '../assets/pointingman1.png'
 import io from "socket.io-client";
 
 const socket = io("http://localhost:3000");
+socketRef.current = io("https://ayhuna-backend.onrender.com");
 
 const Lobby = () => {
   const navigate=useNavigate()
