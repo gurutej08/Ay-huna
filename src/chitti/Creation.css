@@ -20,11 +20,7 @@
   width: 90%;
   max-width: 360px;
   height: clamp(300px, 70vh, 500px);
-
   box-shadow: 1px 3px 20px #0c0c0c;
-
-  box-shadow: 1px 3px 50px #3ce8eb;
-
   border-radius: 10%;
   display: flex;
   flex-direction: column;
@@ -38,15 +34,6 @@
     #f2ff00 85%
   );
   background-size: 100% 100%;
-
-    135deg,
-    #27f415 7%,
-    #d53e7a 25%,
-    #78bbe0 40%,
-    #f2ff00 60%
-  );
-  background-size: 200% 200%;
-
   animation: gradientAnimation 5s ease-in-out infinite;
 }
 
@@ -56,15 +43,12 @@
   50% { background-position: 100% 0%; }
   100% { background-position: 0% 50%; }
 }
-
 .form-2{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-
 /* Rotation animation */
 .myrotate {
   width: 100%;
@@ -116,19 +100,11 @@
 .word {
   width: 90%;
   max-width: 170px;
-
   min-height: 140px;
   padding: 1rem 0.5rem 1.5rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content:space-ar;
-
-  min-height: 120px;
-  padding: 1rem 0.5rem 1.5rem 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
   align-items: center;
   background-color: #f561d5;
   font-weight: bold;
@@ -142,10 +118,6 @@
 }
 
 /* Form elements */
-.word label {
-  align-self: flex-start;
-  margin-bottom: 0.3rem;
-}
 
 .word input {
   width: 90%;
@@ -197,14 +169,4 @@
   .subtbtn {
     padding: 0.4em 1em;
   }
-}
-
-.creationfooter{
-    position: absolute;
-    text-align: "center";
-    font-size: 12px;
-    color: "#777";
-    margin-top: "10px";
-    padding-bottom: "5px";
-    bottom:30px;
 }
