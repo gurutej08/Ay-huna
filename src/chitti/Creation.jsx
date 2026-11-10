@@ -24,11 +24,8 @@ const Creation = () => {
     
    useEffect(() => {
 
-<<<<<<< HEAD
     socketRef.current = io("http://localhost:3000");
-=======
     socketRef.current = io("https://ayhuna-backend.onrender.com");
->>>>>>> origin/main
 
     socketRef.current.on("connect", () => {
         console.log("Connected:", socketRef.current.id);
@@ -80,13 +77,11 @@ const Creation = () => {
             <h2>Create Your Chitti !</h2>
           </div>
           <div className='word'>
-<<<<<<< HEAD
             <form  onSubmit={handleSubmit(onsubmit)} className='form-2'>
               <label className='label-10'>Enter the chitti:</label>
-=======
+
             <form  onSubmit={handleSubmit(onsubmit)}>
               <label>Enter the word or phrase for your chitti:</label>
->>>>>>> origin/main
                <br/>
               <input type="text"
               {...register("chitti", { required:true,
@@ -104,12 +99,9 @@ const Creation = () => {
           
         </div>
       </div>
-<<<<<<< HEAD
-=======
       <footer className='creationfooter'>
           © {new Date().getFullYear()} varun. All rights reserved.
     </footer>
->>>>>>> origin/main
 
     </div>
   )
