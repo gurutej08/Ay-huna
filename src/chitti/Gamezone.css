@@ -7,11 +7,8 @@
 .creation-wrapper4{
     width: 100vw;
     height: 100vh;
-<<<<<<< HEAD
     background-color: #000;
-=======
     background:linear-gradient(#800080,#ffc0cb);
->>>>>>> origin/main
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,28 +17,23 @@
 .container3{
     width: 95vw;
     height: 94vh;
-<<<<<<< HEAD
     background: linear-gradient(
         135deg,
         #24145C,
         #4930BD,
         #087BD9
     );
-=======
     background-size: 100% 100%;
     background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
     background-image: radial-gradient(18% 28% at 24% 50%, rgb(239, 141, 232) 7%, #d050d400 100%),radial-gradient(18% 28% at 24% 50%, rgb(217, 159, 229) 7%, #cb3dd000 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, rgb(230, 71, 71) 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #58bfe19c 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #e603f7f5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #dd6dfff5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
->>>>>>> origin/main
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border: 10px solid rgb(27, 227, 245);
-<<<<<<< HEAD
     box-shadow: 1px 2px 10px rgb(245, 247, 248);
-=======
+
     box-shadow: 4px 4px 100px rgb(54, 206, 244);
->>>>>>> origin/main
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,11 +180,8 @@
     position: absolute;
     bottom: 51%;
     border-radius: 50%;
-<<<<<<< HEAD
     background: radial-gradient(rgb(255, 255, 255) 9%,rgb(198, 21, 221) 30%,rgb(51, 241, 244)60%);
-=======
     background: radial-gradient(rgb(255, 255, 255) 9%,rgb(28, 221, 21) 30%,rgb(51, 241, 244)60%);
->>>>>>> origin/main
     display: flex;
     justify-content: center;
     align-items: center;
@@ -464,11 +453,7 @@
   font-size: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> origin/main
 /* General media query for devices <= 768px */
 @media (max-width: 768px) {
   .container3 {
@@ -529,7 +514,6 @@
   }
 
   .pass{
-<<<<<<< HEAD
     top: 55px;
     right: 45px;
     width: 120px;
@@ -541,7 +525,6 @@
   }
   .hide{
     top: 55px;
-=======
     top: 44px;
     right: 55px;
     width: 120px;
@@ -553,7 +536,6 @@
   }
   .hide{
     top: 45px;
->>>>>>> origin/main
     left: 50px;
   }
 
@@ -608,8 +590,6 @@
 .gameover-overlay h2 {
   font-size: 2rem;
 }
-<<<<<<< HEAD
-=======
 .gamezonefooter{
     position: absolute;
     text-align: "center";
@@ -628,4 +608,3 @@
 .nogreendot{
   opacity: 0;
 }
->>>>>>> origin/main
