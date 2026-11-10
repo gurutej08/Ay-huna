@@ -20,18 +20,17 @@
   width: 90%;
   max-width: 360px;
   height: clamp(300px, 70vh, 500px);
-<<<<<<< HEAD
+
   box-shadow: 1px 3px 20px #0c0c0c;
-=======
+
   box-shadow: 1px 3px 50px #3ce8eb;
->>>>>>> origin/main
+
   border-radius: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center; /* vertically center content */
   align-items: center;
   background: linear-gradient(
-<<<<<<< HEAD
     125deg,
     #eefa11 2%,
     #e67ada 40%,
@@ -39,7 +38,7 @@
     #f2ff00 85%
   );
   background-size: 100% 100%;
-=======
+
     135deg,
     #27f415 7%,
     #d53e7a 25%,
@@ -47,7 +46,7 @@
     #f2ff00 60%
   );
   background-size: 200% 200%;
->>>>>>> origin/main
+
   animation: gradientAnimation 5s ease-in-out infinite;
 }
 
@@ -57,16 +56,15 @@
   50% { background-position: 100% 0%; }
   100% { background-position: 0% 50%; }
 }
-<<<<<<< HEAD
+
 .form-2{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-=======
 
->>>>>>> origin/main
+
 /* Rotation animation */
 .myrotate {
   width: 100%;
@@ -118,19 +116,19 @@
 .word {
   width: 90%;
   max-width: 170px;
-<<<<<<< HEAD
+
   min-height: 140px;
   padding: 1rem 0.5rem 1.5rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content:space-ar;
-=======
+
   min-height: 120px;
   padding: 1rem 0.5rem 1.5rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
->>>>>>> origin/main
+
   align-items: center;
   background-color: #f561d5;
   font-weight: bold;
@@ -144,13 +142,10 @@
 }
 
 /* Form elements */
-<<<<<<< HEAD
-=======
 .word label {
   align-self: flex-start;
   margin-bottom: 0.3rem;
 }
->>>>>>> origin/main
 
 .word input {
   width: 90%;
@@ -203,8 +198,7 @@
     padding: 0.4em 1em;
   }
 }
-<<<<<<< HEAD
-=======
+
 .creationfooter{
     position: absolute;
     text-align: "center";
@@ -214,5 +208,3 @@
     padding-bottom: "5px";
     bottom:30px;
 }
-
->>>>>>> origin/main
