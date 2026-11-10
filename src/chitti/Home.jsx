@@ -16,17 +16,12 @@ const Home = () => {
     function handleclicks(){
         navigate("/Hostzone")
     }
-
     const [bg, setbg] = useState({background: `linear-gradient(120deg,rgba(226, 28, 212, 0.9) )`})
-
-    const [bg, setbg] = useState({background: `linear-gradient(120deg,rgba(198,67,167, 0.4) 50%)`})
-
     useEffect(() => {
         const intervel=setInterval(() => {
             let random=Math.random();
             let random1=Math.random();
             let random2=Math.random();
-
 
             let a=200+(Math.ceil(random*75));
             let b=(Math.ceil(random1*50));
@@ -40,12 +35,6 @@ const Home = () => {
             let e = Math.ceil(random4 * 50);
             let f = 100 + Math.ceil(random5 * 155);
             setbg({background: `linear-gradient(120deg,rgb(${a},${b},${c}, 1),rgba(${d},${e},${f})`});
-
-            let a=150+(Math.ceil(random*100));
-            let b=150+(Math.ceil(random1*100));
-            let c=150+(Math.ceil(random2*100));
-            setbg({background: `linear-gradient(120deg,rgb(${a},${c},${b}, 0.6) 50%)`});
-
         },500)
         return ()=>{
             clearInterval(intervel);
@@ -77,11 +66,6 @@ const Home = () => {
         </div>
         
     </div>
-
-    <footer className='homefooter'>
-          © {new Date().getFullYear()} varun. All rights reserved.
-    </footer>
-
     </div>
   )
 }
