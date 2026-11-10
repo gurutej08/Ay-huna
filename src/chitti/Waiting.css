@@ -19,8 +19,6 @@
 }
 
 
-/* The waiting room container */
-
 .waiting-container {
   width: 400px;
   padding: 30px;
@@ -33,9 +31,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-
-/* Logo styling */
 
 .waiting-container .logo {
   display: flex;
@@ -79,7 +74,7 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
-
+  
 }
 
 /* Individual player cards */
@@ -202,18 +197,6 @@
     padding: 8px;
   }
 }
-
-.waitingfooter{
-    position: absolute;
-    text-align: "center";
-    font-size: 12px;
-    color: "#777";
-    margin-top: "10px";
-    padding-bottom: "5px";
-    bottom:30px;
-}
-
-
 
 
 
