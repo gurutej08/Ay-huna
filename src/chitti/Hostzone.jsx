@@ -16,11 +16,7 @@ const Hostzone = () => {
   } = useForm();
 
   useEffect(() => {
-
     socketRef.current = io("http://localhost:3000");
-
-    socketRef.current = io("https://ayhuna-backend.onrender.com");
-
 
     socketRef.current.on("connect", () => {
       console.log("Connected:", socketRef.current.id);
@@ -65,17 +61,10 @@ const Hostzone = () => {
           <form onSubmit={handleSubmit(onsubmit)} className="form-host">
             <div className="playername1">
               <label className="form-label">playername :</label>
-
               <input 
                 className="form-input"
                 type="text"
                 placeholder=" ex: LUCKY"
-
-              <input
-                className="form-input"
-                type="text"
-                placeholder=" LUCKY"
-
                 {...register("playername", {
                   required: true,
                   minLength: {
@@ -95,14 +84,7 @@ const Hostzone = () => {
 
             <div className="createroomcode">
               <label className="form-label">create room code:</label>
-
               <input className="form-input" type="number" placeholder="123456"
-
-              <input
-                className="form-input"
-                type="number"
-                placeholder="123456"
-
                 {...register("createroomcode", {
                   required: true,
                   pattern: {
@@ -117,11 +99,7 @@ const Hostzone = () => {
             </div>
 
             <div>
-
               <button id="bttn" >lets go into ay-hunaa's world</button>
-
-              <button id="bttn" >lets go into ay-hunaa world</button>
-
             </div>
           </form>
         </div>
@@ -133,11 +111,6 @@ const Hostzone = () => {
       <div className="play">play</div>
 
       <div className="exchange">exchange</div>
-
-      <footer className='hostzonefooter'>
-          © {new Date().getFullYear()} varun. All rights reserved.
-    </footer>
-
     </div>
   );
 };
