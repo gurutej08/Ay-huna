@@ -6,24 +6,15 @@ import { useForm } from 'react-hook-form'
 import pointingman1 from '../assets/pointingman1.png'
 import io from "socket.io-client";
 
-
 const socket = io("http://localhost:3000");
-
-const socket = io("https://ayhuna-backend.onrender.com");
-
 
 const Lobby = () => {
   const navigate=useNavigate()
   
   const [a,seta]=useState({boxShadow: '1px 1px 10px yellow'});
   const [a1,seta1]=useState({boxShadow: '1px 1px 10px yellow'});
-
   const [Inputcolor, setInputcolor] = useState({background:`linear-gradient(120deg, rgba(69, 233, 69, 0.79) 2%,rgb(222, 222, 71,0.85) 50%)`})
   const [Inputcolor1, setInputcolor1] = useState({background:`linear-gradient(120deg, rgba(69, 233, 69, 0.79) 2%,rgb(222, 222, 71,0.85) 50%)`})
-
-  const [Inputcolor, setInputcolor] = useState({background:`linear-gradient(120deg, rgba(69, 233, 69, 0.79) 2%,rgb(222, 222, 71) 90%)`})
-  const [Inputcolor1, setInputcolor1] = useState({background:`linear-gradient(120deg, rgba(69, 233, 69, 0.79) 2%,rgb(222, 222, 71) 90%)`})
-
 
 
 
@@ -85,13 +76,8 @@ const {
       </div>
       <form  className='lobby-form' onSubmit={handleSubmit(submitform)}>
         <div className="playername">
-
           <label className='labels'>Enter Player Name:</label>
           <input className='inpt2' type="text" onClick={handleclick1} style={{...Inputcolor1, ...a1}} placeholder='ex: VARUN '
-
-          <label className='labels'>Enter your Name:</label>
-          <input className='inpt2' type="text" onClick={handleclick1} style={{...Inputcolor1, ...a1}} placeholder='example: varun'
-
           {...register('playername',{required: true ,
           minLength:{value:4,message:"name should have min 4 character"},
           pattern: { value: /^[A-Za-z]+$/, message: "only alphabets allowed" }
@@ -99,11 +85,7 @@ const {
           {errors.playername && <p className='error1'>{errors.playername.message}</p>}
         </div>
         <div className="room-code">
-
           <label className='labels'>Enter Your Room Code:</label>
-
-          <label className='labels'>Enter Room Code:</label>
-
           <input className='inpt1' onClick={handleclick} style={{ ...Inputcolor, ...a}} type="text" placeholder='123456'
           {...register('roomcode',{ required: true,
           pattern: { value: /^[0-9]{6}$/, message: "room code must be 6 digits" }
@@ -118,29 +100,15 @@ const {
         </div>
       </form>
       <div className="inlobby">
-
         <h3>weclome cuties ❤️ </h3>
-
-        <h3>weclome guyzzz ❤️ </h3>
-
         <div className="players">
           hope you will enjoy it
         </div>
         <div className="players">
-
             connect make start and khelo
         </div>
       </div>
     </div>
-
-            connect and start the game
-        </div>
-      </div>
-    </div>
-    <footer className='lobbyfooter'>
-          © {new Date().getFullYear()} varun. All rights reserved.
-    </footer>
-
     </div>
   )
 }
